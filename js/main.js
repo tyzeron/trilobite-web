@@ -16,7 +16,7 @@ if (doParticles) {
 }
 
 function updateServerPlayers() {
-    fetch("https://discord.com/api/v9/invites/trilobitetavern?with_counts=true&with_expiration=true")
+    fetch("https://discord.com/api/v9/invites/qaZ3atSrgd?with_counts=true&with_expiration=true")
         .then(response => {
             if (response.ok) {
                 return response.json();
